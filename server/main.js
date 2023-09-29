@@ -7,7 +7,7 @@ async function insertLink({ title, url }) {
 
 Meteor.startup(async () => {
   console.log("Using process env", process.env["galaxy.meteor.com"]); //
-  console.log("Using process env", process.env["galaxy.meteor.com"]); //
+  console.log("Using process env", process.env.SOMEVAR); //
   console.log(
     "Using Meteor settings galaxy",
     Meteor.settings["galaxy.meteor.com"]
