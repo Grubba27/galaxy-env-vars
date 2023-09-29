@@ -1,0 +1,11 @@
+{
+  "galaxy.meteor.com": {
+     "env": {
+       "FOO": "AAR"
+     }
+   },
+   "public" : {
+      "FOO": "BAR"
+   },
+   "someOtherKey": "someOtherValue"
+}
